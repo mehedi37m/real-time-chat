@@ -1,8 +1,8 @@
 
 
-export const sighup = async(req, res) => {
+export const signup = async(req, res) => {
     try {
-        const {fullName, username, password} =req.body;
+        const {fullName, username, password,confirmPassword, gender} =req.body;
         res.send("login routes");
     } catch (error) {
         
